@@ -10,6 +10,7 @@ import { useStateValue } from "./StateProvider";
 
 function Login() {
     const [state,dispatch] = useStateValue();
+    console.log("🚀 ~ file: Login.js ~ line 13 ~ Login ~ state", state)
 
     const signIn = () => {
         auth
